@@ -12,7 +12,7 @@ import numpy as np
 #from goprocam import constants
 
 
-vidcap = cv2.VideoCapture("test5.mp4")
+vidcap = cv2.VideoCapture("test5.mp4")           #replace test5.mp4 with your own video
 #vidcap = cv2.VideoCapture("udp://10.5.5.9:8554")
 success,gopro = vidcap.read()
 success = True
